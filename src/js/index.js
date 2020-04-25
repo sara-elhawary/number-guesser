@@ -35,3 +35,11 @@ function guessBtnFunction() {
     }
   }
 }
+function gameOver(won, msg) {
+  let color;
+  guessInput.disabled = true;
+  won === true ? (color = "green") : (color = "red");
+
+  guessInput.style.borderColor = color;
+  setMessage(msg, color);
+}
