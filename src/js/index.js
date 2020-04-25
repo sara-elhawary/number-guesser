@@ -1,3 +1,8 @@
+let min = 1,
+  max = 10,
+  winningNumber = 2,
+  guessesleft = 3;
+
 const game = document.querySelector("#game"),
   minNum = document.querySelector(".min-num"),
   maxNum = document.querySelector(".max-num"),
